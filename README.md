@@ -68,3 +68,6 @@ in the folder ``./models/detectors`` and change the folder name from ``PyTorch-Y
         ├── weights                 (HRnet weights)
         └── scripts                 (scripts)
         ```
+#### Usage for hand detection
+./scripts/kinect.py is the file for hand detection.
+run "python kinect.py" will use kinect to do real-time hand detection.
