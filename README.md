@@ -70,4 +70,5 @@ in the folder ``./models/detectors`` and change the folder name from ``PyTorch-Y
         ```
 #### Usage for hand detection
 ./scripts/kinect.py is the file for hand detection.
-run "python kinect.py" will use kinect to do real-time hand detection.
+Please install libfreenect2 and pylibfreenect2 to run kinect v2.
+run "python kinect.py" will use kinect v2 to do real-time hand detection.
